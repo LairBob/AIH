@@ -453,19 +453,16 @@ A.cat:visited:hover {
 
 .article h1, h2, h3 {
 	color: #000;
-	/*clear:both;*/
 }
 
 .article p {
 	line-height: 1.5;
-	/*clear:both;*/	
 }
 
 .article li {
 	line-height: 1.25;
 	margin-bottom: 0.25em;
 	padding-right: 6em;
-	/*clear:both;*/
 }
 
 .article .sidebar {
@@ -490,21 +487,28 @@ A.cat:visited:hover {
 }
 
 .item-promo .item-image {
-	width: 125px;
+	width: 100px;
 	float:left;
 	margin-left: 1em;
 }
 
+.item-promo img {
+	height: 100px;
+}
+
+.item-promo .item-promobox {
+	cursor: pointer;
+}
+
 .item-promo .item-title {
-	width: 350px;
-	float:right;
-	/*clear:right;*/
+	font-weight: bold;
 }
 
 .item-promo .item-desc {
-	width: 350px;
+	width: 325px;
 	float:right;
-	/*clear:right;*/
+	margin-top: 0em;
+	padding: 0.5em 2em 0em 0em;
 }
 
 .spacer {
@@ -524,4 +528,43 @@ A.cat:visited:hover {
 	width: 200px;
 	float: right;
 }
+
+/* Test styles for Product Pages */
+/* Added by Laurent Stanevich - February 19, 2012  */
+
+.product-content {
+	line-height: 1.5;
+}
+
+/* Test styles for TOC pages */
+/* Added by Laurent Stanevich - February 19, 2012 */
+
+.article-toc {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #333;
+	padding: 0em 1em 6em 1em;
+}
+
+.article-toc p {
+	line-height: 1.25;
+	margin: 0 0 0.25em 0;
+}
+
+.article-toc ul {
+	margin-top: 0em;
+}
+
+.article-toc a {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: saddlebrown;
+}
+
+.article-toc-title a {
+	font-size: 15px;	
+}
+.article-toc-item {
+	margin: 1em 0em 1em 0em;
+	padding: 0em 1em 0em 1em;
+}
+
 </STYLE>
